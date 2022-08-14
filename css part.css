@@ -30,7 +30,7 @@ body {
     border-radius: 10px;;
 }
 .letter:active{
-    background-color:rgb(41, 139, 107);
+    background-color:rgb(41, 139, 108);
     color:blanchedalmond;
     font-weight:bold;
 }

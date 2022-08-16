@@ -6,16 +6,18 @@
         <link rel = 'stylesheet' href = 'css part.css'>
     </head>
     <body>
+    <div id = 'titleContainer'>
         <div id = 'title'>The Hangman Game</div> 
+    </div>
+     
         <div id = 'alphabetContainer'></div>
         <canvas id="myCanvas" width="400" height="300" style="border:1px solid #000000;"></canvas>
         <div id = 'hangmanContainer'></div>
-        <button id = 'hint' onclick = 'showHint()'> Hint </button>
-        <div id = 'hintText'>
-           
-        </div>
-        <div id = 'category'>
-            asda
+        <button id = 'hint' onclick = 'showHint(true)'> Hint </button>
+        <div id = 'hintText'></div>
+        <div id = 'categoryContainer'>
+            <div id = 'category'></div>     
+        <button id = 'gameButton' onclick = 'newGame()'>Play again</button>
         </div>
         <script src = 'javascript part.js'></script>
     </body>
